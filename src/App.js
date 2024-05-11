@@ -1,9 +1,7 @@
 // App.js
 import {React, useState, useEffect} from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-//import { AnimatePresence, motion } from 'framer-motion';
-import { motion } from 'framer-motion';
-
+import { AnimatePresence, motion } from 'framer-motion';
 
 import './App.css'
 import Header from './components/Header';

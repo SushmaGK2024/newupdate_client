@@ -230,7 +230,7 @@ const Home = ( props) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(`${process.env.REACT_APP_BACKEND_URL}/experiences/experience`, {
+        const response = await axios.get(`https://backend-gq9i.onrender.com/experiences/experience`, {
           headers: {
             Authorization: `Bearer ${token}`
           }
